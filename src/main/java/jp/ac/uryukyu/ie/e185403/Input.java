@@ -46,6 +46,7 @@ public class Input {
                 }
             }
         }
+        Judgment.judgment( x, y);
     }
 
     static void setBoradSquare(int square){
@@ -54,6 +55,10 @@ public class Input {
 
     static int getBoardSquare(){
         return BOARD_SQUARE;
+    }
+
+    static void setBoard(int[][] board){
+        Input.board = board;
     }
 
     static int[][] getBoard(){
