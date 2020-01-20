@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class InputTest extends GroovyTestCase {
+class InputTest {
     /**
      * 指定した座標に置けるか確認
      */
